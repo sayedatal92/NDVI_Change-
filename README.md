@@ -1,4 +1,5 @@
 // This function gets NDVI from Landsat 5 imagery.
+
 var getNDVI = function(image) {
   return image.normalizedDifference(['B4', 'B3']);
 };
